@@ -3,7 +3,7 @@ h1,
 h2 {
   font-family: "Raleway", sans-serif;
 }
-#container {
+.container {
   margin: auto;
   max-width: 1200px;
   min-width: 600px;
@@ -36,8 +36,7 @@ nav ul li {
 nav li:first-child {
   border-left: none;
 }
-
-#content {
+main{
   display: flex;
 }
 .section {
@@ -54,10 +53,6 @@ nav li:first-child {
   border: 1px solid #ccc;
   border-radius: 8px;
   margin: 70px 0 0 10px;
-}
-.left-float {
-  float: left;
-  padding: 0 15px 15px 0;
 }
 table {
   width: 100%;
