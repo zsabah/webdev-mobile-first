@@ -38,6 +38,7 @@ nav li:first-child {
 }
 main{
   display: flex;
+  gap: 10px;
 }
 .section {
   /*flex: 1 1 auto;*/
@@ -52,7 +53,7 @@ main{
   padding: 20px 40px;
   border: 1px solid #ccc;
   border-radius: 8px;
-  margin: 70px 0 0 10px;
+  margin-top: 70px;
 }
 table {
   width: 100%;
